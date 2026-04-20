@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Delicious Restaurant</title>
+  <title>التوفيق الدائم</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=El+Messiri:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <style>
     :root {
@@ -27,7 +27,7 @@
     }
 
     body {
-      font-family: "Open Sans", sans-serif;
+      font-family: "Cairo", sans-serif;
       color: var(--text);
       background: #ffffff;
     }
@@ -59,14 +59,13 @@
       color: var(--accent);
       font-size: 12px;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.04em;
       margin-bottom: 12px;
     }
 
     .section-header h2 {
       margin: 0;
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       font-size: clamp(2rem, 4vw, 3rem);
       color: var(--heading);
     }
@@ -96,7 +95,7 @@
 
     .topbar i {
       color: var(--accent);
-      margin-right: 6px;
+      margin-inline-end: 6px;
     }
 
     #mainNav {
@@ -116,7 +115,7 @@
     }
 
     .navbar-brand {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       font-size: 2rem;
       color: #ffffff;
     }
@@ -128,7 +127,7 @@
 
     .navbar-nav .nav-link {
       color: rgba(255, 255, 255, 0.88);
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 14px;
       padding: 8px 14px;
     }
@@ -142,7 +141,7 @@
       background: var(--accent);
       color: #ffffff;
       border-radius: 999px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 13px;
       font-weight: 600;
       padding: 10px 24px;
@@ -159,7 +158,7 @@
       color: #ffffff;
       border-radius: 999px;
       padding: 11px 28px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 14px;
       font-weight: 600;
     }
@@ -200,7 +199,7 @@
     }
 
     .hero-text h1 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       font-size: clamp(2.6rem, 5vw, 4.8rem);
       margin-bottom: 18px;
     }
@@ -250,7 +249,7 @@
 
     .about-copy h3,
     .event-copy h3 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       color: var(--heading);
       font-size: 2.4rem;
       margin-bottom: 20px;
@@ -271,7 +270,7 @@
 
     .check-list li {
       position: relative;
-      padding-left: 30px;
+      padding-inline-start: 30px;
       margin-bottom: 14px;
     }
 
@@ -279,7 +278,7 @@
       content: "\f26e";
       font-family: "bootstrap-icons";
       position: absolute;
-      left: 0;
+      inset-inline-start: 0;
       top: 0;
       color: var(--accent);
       font-size: 18px;
@@ -300,14 +299,14 @@
 
     .why-card .number {
       color: var(--accent);
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 2rem;
       font-weight: 700;
       margin-bottom: 18px;
     }
 
     .why-card h4 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       color: var(--heading);
       font-size: 2rem;
       margin-bottom: 16px;
@@ -323,7 +322,7 @@
 
     .menu-filters a {
       color: var(--heading);
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       font-size: 1.45rem;
     }
 
@@ -357,7 +356,7 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       margin-bottom: 4px;
     }
 
@@ -389,7 +388,7 @@
     }
 
     .specials-nav {
-      border-right: 1px solid #e7e0d7;
+      border-inline-end: 1px solid #e7e0d7;
     }
 
     .specials-nav .nav-link {
@@ -398,19 +397,19 @@
       border: 0;
       color: #433f39;
       padding: 14px 18px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 15px;
-      text-align: left;
+      text-align: start;
     }
 
     .specials-nav .nav-link.active {
       color: var(--accent);
       background: transparent;
-      border-right: 3px solid var(--accent);
+      border-inline-end: 3px solid var(--accent);
     }
 
     .special-card h3 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       color: var(--heading);
       font-size: 2.2rem;
       margin-bottom: 18px;
@@ -494,7 +493,7 @@
 
     .chef-info h4 {
       margin: 0 0 6px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-size: 18px;
       color: #433f39;
     }
@@ -552,7 +551,7 @@
       padding: 12px 40px;
       border: 0;
       border-radius: 0;
-      font-family: "Poppins", sans-serif;
+      font-family: "Cairo", sans-serif;
       font-weight: 600;
     }
 
@@ -586,7 +585,7 @@
     }
 
     .testimonial-item h4 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       font-size: 2rem;
       margin-bottom: 4px;
       color: #ffffff;
@@ -671,7 +670,7 @@
 
     .info-item h5 {
       margin: 0 0 4px;
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       color: var(--heading);
       font-size: 1.6rem;
     }
@@ -694,7 +693,7 @@
     }
 
     .footer h5 {
-      font-family: "Satisfy", cursive;
+      font-family: "El Messiri", sans-serif;
       color: #ffffff;
       font-size: 1.7rem;
       margin-bottom: 14px;
@@ -708,7 +707,7 @@
     }
 
     .footer .social-links {
-      justify-content: flex-start;
+      justify-content: flex-end;
       margin-top: 10px;
     }
 
@@ -778,13 +777,13 @@
       }
 
       .specials-nav {
-        border-right: 0;
+        border-inline-end: 0;
         border-bottom: 1px solid #e7e0d7;
         margin-bottom: 24px;
       }
 
       .specials-nav .nav-link.active {
-        border-right: 0;
+        border-inline-end: 0;
         border-bottom: 3px solid var(--accent);
       }
     }
@@ -818,37 +817,37 @@
 <body>
   <div class="topbar">
     <div class="container">
-      <div><i class="bi bi-phone"></i> +1 5589 55488 55</div>
-      <div><i class="bi bi-clock"></i> Mon-Sat: 11:00 AM - 23:00 PM</div>
+      <div><i class="bi bi-phone"></i> +216 12 345 678</div>
+      <div><i class="bi bi-clock"></i> الإثنين–السبت: 11:00 – 23:00</div>
     </div>
   </div>
 
   <nav id="mainNav" class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#hero">Delicious</a>
-      <button class="navbar-toggler border-0 text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#hero">التوفيق الدائم</a>
+      <button class="navbar-toggler border-0 text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="فتح القائمة">
         <i class="bi bi-list fs-1 text-white"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-          <li class="nav-item"><a class="nav-link" href="#specials">Specials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-          <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#hero">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">المنيو</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specials">العروض</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">الفعاليات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chefs">الشيفات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">المعرض</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">المزيد</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#why-us">Why Us</a></li>
-              <li><a class="dropdown-item" href="#book">Book a Table</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+              <li><a class="dropdown-item" href="#why-us">لماذا نحن</a></li>
+              <li><a class="dropdown-item" href="#book">احجز طاولة</a></li>
+              <li><a class="dropdown-item" href="#contact">تواصل</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
         </ul>
-        <a class="btn-book" href="#book">Book a table</a>
+        <a class="btn-book" href="#book">احجز طاولة</a>
       </div>
     </div>
   </nav>
@@ -856,19 +855,19 @@
   <section id="hero">
     <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="الشريحة 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="الشريحة 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="الشريحة 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" style="background-image:url('asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg');">
           <div class="container hero-content">
             <div class="hero-text text-center w-100">
-              <h1>Temporibus autem quibusdam</h1>
-              <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+              <h1>تقرميشة بلمسة مختلفة</h1>
+              <p>نقدّم لك تجربة بصرية قريبة من قوالب المواقع الاحترافية، مع محتوى عربي واتجاه RTL وصور محلية من مجلد المشروع.</p>
               <div class="d-flex justify-content-center flex-wrap gap-3">
-                <a class="btn-outline-lightgold" href="#menu">Our Menu</a>
-                <a class="btn-outline-lightgold" href="#book">Book a table</a>
+                <a class="btn-outline-lightgold" href="#menu">شاهد المنيو</a>
+                <a class="btn-outline-lightgold" href="#book">احجز طاولة</a>
               </div>
             </div>
           </div>
@@ -876,11 +875,11 @@
         <div class="carousel-item" style="background-image:url('asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg');">
           <div class="container hero-content">
             <div class="hero-text text-center w-100">
-              <h1>Delicious moments to share</h1>
-              <p>Freshly prepared dishes, warm atmosphere, and elegant presentation crafted to mirror the visual style you referenced.</p>
+              <h1>نكهات تناسب كل الأوقات</h1>
+              <p>تصميم داكن أنيق مع لمسات ذهبية، أقسام واضحة، وسلايدر في الواجهة يعطي نفس الإحساس العام للمرجع الذي اخترته.</p>
               <div class="d-flex justify-content-center flex-wrap gap-3">
-                <a class="btn-outline-lightgold" href="#events">Private Events</a>
-                <a class="btn-outline-lightgold" href="#contact">Contact Us</a>
+                <a class="btn-outline-lightgold" href="#events">فعاليات خاصة</a>
+                <a class="btn-outline-lightgold" href="#contact">تواصل معنا</a>
               </div>
             </div>
           </div>
@@ -888,11 +887,11 @@
         <div class="carousel-item" style="background-image:url('asset/img/WhatsApp Image 2026-03-13 at 3.34.16 AM6.jpeg');">
           <div class="container hero-content">
             <div class="hero-text text-center w-100">
-              <h1>Crafted with flavor and style</h1>
-              <p>From the transparent dark navigation to the script headings and full-width sections, this page now follows the same visual language as the inspiration screenshots.</p>
+              <h1>جودة في التفاصيل</h1>
+              <p>من شريط المعلومات العلوي إلى التذييل، الصفحة مبنية لتكون متجاوبة وسهلة التعديل: غيّر النصوص والصور وابقِ الهيكل كما هو.</p>
               <div class="d-flex justify-content-center flex-wrap gap-3">
-                <a class="btn-outline-lightgold" href="#gallery">View Gallery</a>
-                <a class="btn-outline-lightgold" href="#book">Reserve Now</a>
+                <a class="btn-outline-lightgold" href="#gallery">معرض الصور</a>
+                <a class="btn-outline-lightgold" href="#book">احجز الآن</a>
               </div>
             </div>
           </div>
@@ -900,11 +899,11 @@
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">السابق</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">التالي</span>
       </button>
     </div>
   </section>
@@ -914,19 +913,19 @@
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <div class="about-media">
-            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="Product visual">
-            <a class="play-btn" href="#book" aria-label="Play video"><i class="bi bi-play-fill"></i></a>
+            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="صورة تعريفية">
+            <a class="play-btn" href="#book" aria-label="تشغيل"><i class="bi bi-play-fill"></i></a>
           </div>
         </div>
         <div class="col-lg-6 about-copy">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3>نقدّم لك تجربة متكاملة تجمع بين الشكل والمحتوى.</h3>
+          <p class="lead">هذا نص تجريبي يمكنك استبداله بوصف حقيقي لعلامتك التجارية أو لمنتجاتك.</p>
           <ul class="check-list">
-            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            <li>تصميم متجاوب يعمل بشكل جيد على الهاتف والكمبيوتر.</li>
+            <li>أقسام مرتبة مثل المرجع الذي اخترته، مع سهولة التعديل.</li>
+            <li>دعم اتجاه RTL وخطوط عربية مناسبة للقراءة.</li>
           </ul>
-          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          <p>يمكنك لاحقًا ربط نماذج الحجز والتواصل بخدمة بريد أو API، أما الآن فهي للعرض فقط.</p>
         </div>
       </div>
     </div>
@@ -935,29 +934,29 @@
   <section id="why-us" class="section">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Why Us</div>
-        <h2>Why choose <span>Our Restaurant</span></h2>
+        <div class="eyebrow">لماذا نحن</div>
+        <h2>لماذا تختار <span>تجربتنا</span></h2>
       </div>
       <div class="row g-4">
         <div class="col-lg-4">
           <div class="why-card">
             <div class="number">01</div>
-            <h4>Lorem Ipsum</h4>
-            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat.</p>
+            <h4>سرعة التنفيذ</h4>
+            <p>هيكل واضح يسهّل عليك إضافة محتواك وتعديل الألوان دون إعادة بناء الصفحة من الصفر.</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="why-card">
             <div class="number">02</div>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest.</p>
+            <h4>مظهر احترافي</h4>
+            <p>تباين لوني هادئ مع لمسات ذهبية تعطي إحساسًا فاخرًا قريبًا من التصميم المرجعي.</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="why-card">
             <div class="number">03</div>
-            <h4>Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis.</p>
+            <h4>سهولة الصيانة</h4>
+            <p>كل شيء في ملف واحد تقريبًا، ما يجعل النسخ والتعديل أسرع أثناء التجربة.</p>
           </div>
         </div>
       </div>
@@ -967,83 +966,83 @@
   <section id="menu" class="section">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Menu</div>
-        <h2>Check Our Tasty <span>Menu</span></h2>
+        <div class="eyebrow">المنيو</div>
+        <h2>اطلع على <span>أطايبنا</span></h2>
       </div>
       <div class="menu-filters">
-        <a class="active" href="#menu">All</a>
-        <a href="#menu">Starters</a>
-        <a href="#menu">Salads</a>
-        <a href="#menu">Specialty</a>
+        <a class="active" href="#menu">الكل</a>
+        <a href="#menu">مقبلات</a>
+        <a href="#menu">سلطات</a>
+        <a href="#menu">أطباق مميزة</a>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="Lobster Bisque">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="طبق مقبلات">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Lobster Bisque</h4>
+                <h4>شوربة دافئة</h4>
                 <span class="dots"></span>
-                <span class="price">$5.95</span>
+                <span class="price">12 د.ت</span>
               </div>
-              <p>Lorem, deren, trataro, filede, nerada</p>
+              <p>نص تجريبي لوصف الطبق والمكونات.</p>
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="Crab Cake">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="طبق رئيسي">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Crab Cake</h4>
+                <h4>طبق مشوي</h4>
                 <span class="dots"></span>
-                <span class="price">$7.95</span>
+                <span class="price">18 د.ت</span>
               </div>
-              <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+              <p>نص تجريبي: يمكنك وصف النكهة والتحضير هنا.</p>
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="Tuscan Grilled">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="طبق مميز">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Tuscan Grilled</h4>
+                <h4>طبق اليوم</h4>
                 <span class="dots"></span>
-                <span class="price">$9.95</span>
+                <span class="price">22 د.ت</span>
               </div>
-              <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+              <p>نص تجريبي لعرض مكوّنات الطبق أو حجم الحصة.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="Bread Barrel">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="سلطة">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Bread Barrel</h4>
+                <h4>سلطة موسمية</h4>
                 <span class="dots"></span>
-                <span class="price">$6.95</span>
+                <span class="price">14 د.ت</span>
               </div>
-              <p>Lorem, deren, trataro, filede, nerada</p>
+              <p>نص تجريبي: اذكر الخضار والصلصة المفضلة لديك.</p>
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="Caesar Selections">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="حلوى">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Caesar Selections</h4>
+                <h4>حلوى منزلية</h4>
                 <span class="dots"></span>
-                <span class="price">$8.95</span>
+                <span class="price">9 د.ت</span>
               </div>
-              <p>Lorem, deren, trataro, filede, nerada</p>
+              <p>نص تجريبي لوصف الحلوى والحجم.</p>
             </div>
           </div>
           <div class="menu-item">
-            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="Mozzarella Stick">
+            <img class="menu-thumb" src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="مشروب">
             <div class="menu-body">
               <div class="menu-line">
-                <h4>Mozzarella Stick</h4>
+                <h4>مشروب منعش</h4>
                 <span class="dots"></span>
-                <span class="price">$4.95</span>
+                <span class="price">7 د.ت</span>
               </div>
-              <p>Lorem, deren, trataro, filede, nerada</p>
+              <p>نص تجريبي: اذكر النكهة أو الإضافات.</p>
             </div>
           </div>
         </div>
@@ -1054,17 +1053,17 @@
   <section id="specials" class="section">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Specials</div>
-        <h2>Check Our <span>Specials</span></h2>
+        <div class="eyebrow">العروض</div>
+        <h2>اكتشف <span>عروضنا</span> المميزة</h2>
       </div>
       <div class="row g-4 align-items-center">
         <div class="col-lg-3">
           <div class="nav flex-column nav-pills specials-nav" id="specials-tab" role="tablist" aria-orientation="vertical">
-            <button class="nav-link active" id="special-1-tab" data-bs-toggle="pill" data-bs-target="#special-1" type="button" role="tab">Modi sit est</button>
-            <button class="nav-link" id="special-2-tab" data-bs-toggle="pill" data-bs-target="#special-2" type="button" role="tab">Unde praesentium sed</button>
-            <button class="nav-link" id="special-3-tab" data-bs-toggle="pill" data-bs-target="#special-3" type="button" role="tab">Pariatur explicabo vel</button>
-            <button class="nav-link" id="special-4-tab" data-bs-toggle="pill" data-bs-target="#special-4" type="button" role="tab">Nostrum qui quasi</button>
-            <button class="nav-link" id="special-5-tab" data-bs-toggle="pill" data-bs-target="#special-5" type="button" role="tab">Iusto ut expedita aut</button>
+            <button class="nav-link active" id="special-1-tab" data-bs-toggle="pill" data-bs-target="#special-1" type="button" role="tab">عرض الأسبوع</button>
+            <button class="nav-link" id="special-2-tab" data-bs-toggle="pill" data-bs-target="#special-2" type="button" role="tab">تجربة عائلية</button>
+            <button class="nav-link" id="special-3-tab" data-bs-toggle="pill" data-bs-target="#special-3" type="button" role="tab">ليلة مميزة</button>
+            <button class="nav-link" id="special-4-tab" data-bs-toggle="pill" data-bs-target="#special-4" type="button" role="tab">باقة VIP</button>
+            <button class="nav-link" id="special-5-tab" data-bs-toggle="pill" data-bs-target="#special-5" type="button" role="tab">عرض سريع</button>
           </div>
         </div>
         <div class="col-lg-9">
@@ -1072,60 +1071,60 @@
             <div class="tab-pane fade show active" id="special-1" role="tabpanel" tabindex="0">
               <div class="row align-items-center g-4 special-card">
                 <div class="col-md-8">
-                  <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                  <p>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius quia. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel.</p>
+                  <h3>عرض الأسبوع: مزيج من النكهات المفضلة</h3>
+                  <p>نص تجريبي يشرح محتوى العرض والمدة.</p>
+                  <p>يمكنك هنا إضافة تفاصيل أكثر: المكونات، وقت التقديم، أو شروط الحجز. الهدف هو الحفاظ على نفس توزيع الأعمدة كما في التصميم المرجعي.</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="Special dish">
+                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="صورة العرض">
                 </div>
               </div>
             </div>
             <div class="tab-pane fade" id="special-2" role="tabpanel" tabindex="0">
               <div class="row align-items-center g-4 special-card">
                 <div class="col-md-8">
-                  <h3>Et blanditiis nemo veritatis excepturi</h3>
-                  <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka.</p>
-                  <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates.</p>
+                  <h3>تجربة عائلية مريحة</h3>
+                  <p>نص تجريبي: مناسب للعائلات مع خيارات متنوعة.</p>
+                  <p>أضف هنا قائمة مختصرة أو نقاط تسلّط الانتباه على ما يميز العرض عن باقي الأيام.</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="Special pasta">
+                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="صورة العرض">
                 </div>
               </div>
             </div>
             <div class="tab-pane fade" id="special-3" role="tabpanel" tabindex="0">
               <div class="row align-items-center g-4 special-card">
                 <div class="col-md-8">
-                  <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                  <p>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga.</p>
-                  <p>Qui natus non est. Omnis adipisci et amet sed est veniam. Dolore placeat autem. Rerum est autem dolores pariatur et ipsum iusto. Illo enim voluptas sed et quidem.</p>
+                  <h3>ليلة مميزة بأجواء خاصة</h3>
+                  <p>نص تجريبي: موسيقى هادئة، إضاءة دافئة، وخدمة متميزة.</p>
+                  <p>يمكنك وصف البرنامج أو التوقيت أو أي شرط للحجز المسبق.</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="Special seafood">
+                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="صورة العرض">
                 </div>
               </div>
             </div>
             <div class="tab-pane fade" id="special-4" role="tabpanel" tabindex="0">
               <div class="row align-items-center g-4 special-card">
                 <div class="col-md-8">
-                  <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                  <p>Totam aperiam accusamus. Repudiandae consequuntur iure voluptas iure porro quis delectus.</p>
-                  <p>Aliquam illum dolor. Sed nulla amet neque repellendus mollitia. Rerum praesentium et sed inventore minus ut voluptate. Quia placeat pariatur quisquam.</p>
+                  <h3>باقة VIP لضيوفك المهمين</h3>
+                  <p>نص تجريبي: جلسة خاصة مع قائمة طعام مخصصة.</p>
+                  <p>اذكر ما يشمله العرض: عدد الأشخاص، المدة، أو أي خدمات إضافية.</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="Special meat">
+                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="صورة العرض">
                 </div>
               </div>
             </div>
             <div class="tab-pane fade" id="special-5" role="tabpanel" tabindex="0">
               <div class="row align-items-center g-4 special-card">
                 <div class="col-md-8">
-                  <h3>Est eveniet ipsam sint quia quidem</h3>
-                  <p>Maiores sed dolores similique labore et inventore et quasi temporibus.</p>
-                  <p>Ut molestiae deleniti. Perspiciatis quod quo quos nulla quo illum ullam. Nihil esse occaecati aliquid blanditiis. Illum aut qui molestiae a ipsum deleniti tempora.</p>
+                  <h3>عرض سريع خلال ساعات محددة</h3>
+                  <p>نص تجريبي: خصم أو هدية عند الطلب خلال فترة زمنية.</p>
+                  <p>وضّح وقت البدء والانتهاء حتى يفهم الزائر العرض بسرعة.</p>
                 </div>
                 <div class="col-md-4">
-                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="Special salad">
+                  <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="صورة العرض">
                 </div>
               </div>
             </div>
@@ -1138,67 +1137,67 @@
   <section id="events" class="section events">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Events</div>
-        <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+        <div class="eyebrow">الفعاليات</div>
+        <h2>نظم <span>فعاليتك</span> معنا</h2>
       </div>
       <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators position-static mt-4">
-          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Event 1"></button>
-          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Event 2"></button>
-          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Event 3"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="فعالية 1"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="فعالية 2"></button>
+          <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="فعالية 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row g-4 align-items-center event-slide">
               <div class="col-lg-6">
-                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="Private party">
+                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="حفلة خاصة">
               </div>
               <div class="col-lg-6 event-copy">
-                <h3>Private Parties</h3>
-                <div class="price">$290</div>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3>حفلات خاصة</h3>
+                <div class="price">290 د.ت</div>
+                <p class="lead">نص تجريبي يصف نوع الحفلة والفئة المستهدفة.</p>
                 <ul class="check-list">
-                  <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li>تنسيق طاولات حسب عدد الضيوف.</li>
+                  <li>قائمة طعام مرنة وقابلة للتخصيص.</li>
+                  <li>مرافقة وتنظيم أثناء الفعالية.</li>
                 </ul>
-                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>يمكنك استبدال هذا النص بوصف حقيقي لخدماتك وشروط الحجز.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row g-4 align-items-center event-slide">
               <div class="col-lg-6">
-                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.16 AM6.jpeg" alt="Birthday parties">
+                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.16 AM6.jpeg" alt="عيد ميلاد">
               </div>
               <div class="col-lg-6 event-copy">
-                <h3>Birthday Parties</h3>
-                <div class="price">$189</div>
-                <p class="lead">Celebrate a memorable evening with curated dishes, warm lighting, and service designed for intimate and lively gatherings.</p>
+                <h3>أعياد ميلاد</h3>
+                <div class="price">189 د.ت</div>
+                <p class="lead">نص تجريبي: أجواء دافئة مناسبة للعائلة والأصدقاء.</p>
                 <ul class="check-list">
-                  <li>Custom menu packages and dessert tables.</li>
-                  <li>Optional private seating with decor-ready layout.</li>
-                  <li>Dedicated event support from arrival to closing.</li>
+                  <li>خيارات حلويات وإضافات بسيطة.</li>
+                  <li>جلسة مريحة مع إمكانية تزيين بسيط.</li>
+                  <li>تنسيق وقت الدخول والخروج بوضوح.</li>
                 </ul>
-                <p>Perfect for family dinners, small celebrations, and stylish birthday nights that need a polished venue without losing the cozy atmosphere.</p>
+                <p>أضف هنا تفاصيل السعة القصوى أو أي متطلبات للحجز المسبق.</p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row g-4 align-items-center event-slide">
               <div class="col-lg-6">
-                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="Custom parties">
+                <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="فعالية مخصصة">
               </div>
               <div class="col-lg-6 event-copy">
-                <h3>Custom Parties</h3>
-                <div class="price">$99</div>
-                <p class="lead">Tailored spaces, polished presentation, and flexible arrangements that fit your guest list and event theme.</p>
+                <h3>فعاليات مخصصة</h3>
+                <div class="price">99 د.ت</div>
+                <p class="lead">نص تجريبي: مناسب لمجموعات صغيرة أو لقاءات عمل بسيطة.</p>
                 <ul class="check-list">
-                  <li>Indoor and evening dining atmosphere.</li>
-                  <li>Flexible seating plans for groups.</li>
-                  <li>Signature dishes and custom drinks menu.</li>
+                  <li>مرونة في اختيار الأوقات.</li>
+                  <li>تنسيق بسيط وسريع.</li>
+                  <li>إمكانية إضافة خدمات حسب الطلب.</li>
                 </ul>
-                <p>Whether you're planning a business dinner or a private celebration, the structure of this section now closely matches the inspiration site.</p>
+                <p>يمكنك ربط هذا القسم لاحقًا بنموذج حجز يجمع التاريخ وعدد الأشخاص.</p>
               </div>
             </div>
           </div>
@@ -1210,16 +1209,16 @@
   <section id="chefs" class="section">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Chefs</div>
-        <h2>Our Professional <span>Chefs</span></h2>
+        <div class="eyebrow">الشيفات</div>
+        <h2>فريقنا <span>المحترف</span></h2>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6">
           <div class="chef-card">
-            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="Walter White">
+            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="صورة الشيف">
             <div class="chef-info">
-              <h4>Walter White</h4>
-              <span>Master Chef</span>
+              <h4>وليد الحكيمي</h4>
+              <span>شيف رئيسي</span>
               <div class="social-links">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -1231,10 +1230,10 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="chef-card">
-            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="Sarah Jhonson">
+            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="صورة الشيف">
             <div class="chef-info">
-              <h4>Sarah Jhonson</h4>
-              <span>Patissier</span>
+              <h4>سارة بوزيد</h4>
+              <span>شيف حلويات</span>
               <div class="social-links">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -1246,10 +1245,10 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="chef-card">
-            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="William Anderson">
+            <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="صورة الشيف">
             <div class="chef-info">
-              <h4>William Anderson</h4>
-              <span>Cook</span>
+              <h4>يوسف المرادي</h4>
+              <span>شيف تنفيذي</span>
               <div class="social-links">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -1266,8 +1265,8 @@
   <section id="book" class="section book-section">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Book a Table</div>
-        <h2>Book a <span>Table</span></h2>
+        <div class="eyebrow">احجز طاولة</div>
+        <h2>احجز <span>طاولتك</span></h2>
       </div>
       <div class="row g-0 shadow-sm">
         <div class="col-lg-4">
@@ -1276,15 +1275,15 @@
         <div class="col-lg-8">
           <div class="book-form-wrap">
             <form class="row g-3">
-              <div class="col-md-4"><input class="form-control" type="text" placeholder="Your Name"></div>
-              <div class="col-md-4"><input class="form-control" type="email" placeholder="Your Email"></div>
-              <div class="col-md-4"><input class="form-control" type="text" placeholder="Your Phone"></div>
+              <div class="col-md-4"><input class="form-control" type="text" placeholder="الاسم الكامل"></div>
+              <div class="col-md-4"><input class="form-control" type="email" placeholder="البريد الإلكتروني"></div>
+              <div class="col-md-4"><input class="form-control" type="text" placeholder="رقم الهاتف"></div>
               <div class="col-md-4"><input class="form-control" type="date"></div>
               <div class="col-md-4"><input class="form-control" type="time"></div>
-              <div class="col-md-4"><input class="form-control" type="number" min="1" placeholder="# of people"></div>
-              <div class="col-12"><textarea class="form-control" placeholder="Message"></textarea></div>
+              <div class="col-md-4"><input class="form-control" type="number" min="1" placeholder="عدد الأشخاص"></div>
+              <div class="col-12"><textarea class="form-control" placeholder="ملاحظات إضافية"></textarea></div>
               <div class="col-12 text-center">
-                <button class="btn-submit" type="button">Book a Table</button>
+                <button class="btn-submit" type="button">تأكيد الحجز</button>
               </div>
             </form>
           </div>
@@ -1296,61 +1295,61 @@
   <section id="testimonials" class="section testimonials">
     <div class="container">
       <div class="section-header">
-        <div class="eyebrow">Testimonials</div>
-        <h2>What they're saying <span>about us</span></h2>
+        <div class="eyebrow">آراء العملاء</div>
+        <h2>ماذا يقولون <span>عنا</span></h2>
       </div>
       <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators position-static mt-4">
-          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
-          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
-          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
-          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="3" aria-label="Testimonial 4"></button>
-          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="4" aria-label="Testimonial 5"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="رأي 1"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="رأي 2"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="رأي 3"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="3" aria-label="رأي 4"></button>
+          <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="4" aria-label="رأي 5"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="testimonial-item">
-              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="Jena Karlis">
-              <h4>Jena Karlis</h4>
-              <span>Store Owner</span>
+              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="صورة العميل">
+              <h4>جيهان القاسمي</h4>
+              <span>صاحبة متجر</span>
               <div class="testimonial-stars">★★★★★</div>
-              <p><i class="bi bi-quote quote-icon-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. <i class="bi bi-quote"></i></p>
+              <p><i class="bi bi-quote quote-icon-left"></i> تجربة ممتازة من حيث التنظيم والسرعة. النص هنا تجريبي ويمكنك استبداله بآراء حقيقية من عملائك. <i class="bi bi-quote"></i></p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="Matt Brandon">
-              <h4>Matt Brandon</h4>
-              <span>Freelancer</span>
+              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="صورة العميل">
+              <h4>ماهر بن عثمان</h4>
+              <span>مصمم</span>
               <div class="testimonial-stars">★★★★★</div>
-              <p>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p>
+              <p>نص تجريبي: أعجبني التنسيق العام والتباين بين الألوان، والصفحة سهلة القراءة على الهاتف.</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="John Larson">
-              <h4>John Larson</h4>
-              <span>Entrepreneur</span>
+              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="صورة العميل">
+              <h4>ليلى المالكي</h4>
+              <span>رائدة أعمال</span>
               <div class="testimonial-stars">★★★★★</div>
-              <p>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+              <p>نص تجريبي: الخدمة كانت لطيفة والأجواء مريحة. يمكنك إضافة تفاصيل أكثر حسب تجربتك الفعلية.</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="Saul Goodman">
-              <h4>Saul Goodman</h4>
-              <span>Designer</span>
+              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="صورة العميل">
+              <h4>كريم الوسلاتي</h4>
+              <span>مدير مشروع</span>
               <div class="testimonial-stars">★★★★★</div>
-              <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+              <p>نص تجريبي: أقسام الصفحة واضحة وسهلة التصفح، وهذا مهم جدًا لزوار الموقع من الهاتف.</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="Sara Wilsson">
-              <h4>Sara Wilsson</h4>
-              <span>Store Owner</span>
+              <img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="صورة العميل">
+              <h4>نادية الشريف</h4>
+              <span>مدونة</span>
               <div class="testimonial-stars">★★★★★</div>
-              <p>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p>
+              <p>نص تجريبي: أحببت فكرة السلايدر في الأعلى والألوان الدافئة. يمكنك استبدال هذا النص بمراجعات حقيقية.</p>
             </div>
           </div>
         </div>
@@ -1361,18 +1360,18 @@
   <section id="gallery" class="section">
     <div class="container-fluid px-0">
       <div class="section-header">
-        <div class="eyebrow">Gallery</div>
-        <h2>Some photos from <span>Our Restaurant</span></h2>
+        <div class="eyebrow">المعرض</div>
+        <h2>لمحات من <span>أعمالنا</span></h2>
       </div>
       <div class="row g-0 gallery-grid">
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="Gallery 1"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="Gallery 2"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="Gallery 3"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="Gallery 4"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="Gallery 5"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="Gallery 6"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.16 AM6.jpeg" alt="Gallery 7"></div></div>
-        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="Gallery 8"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="صورة 1"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM1.jpeg" alt="صورة 2"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM2.jpeg" alt="صورة 3"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM3.jpeg" alt="صورة 4"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM4.jpeg" alt="صورة 5"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM5.jpeg" alt="صورة 6"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.16 AM6.jpeg" alt="صورة 7"></div></div>
+        <div class="col-6 col-md-3"><div class="gallery-tile"><img src="asset/img/WhatsApp Image 2026-03-13 at 3.34.15 AM.jpeg" alt="صورة 8"></div></div>
       </div>
     </div>
   </section>
@@ -1380,11 +1379,11 @@
   <section id="contact" class="section">
     <div class="container-fluid px-0">
       <div class="section-header">
-        <div class="eyebrow">Contact</div>
-        <h2>Check Our <span>Contact</span></h2>
+        <div class="eyebrow">تواصل</div>
+        <h2>تواصل <span>معنا</span></h2>
       </div>
       <div class="map-frame">
-        <iframe title="Downtown location map" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.020%2C40.690%2C-73.980%2C40.720&layer=mapnik&marker=40.7038%2C-74.0041"></iframe>
+        <iframe title="خريطة الموقع" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.020%2C40.690%2C-73.980%2C40.720&layer=mapnik&marker=40.7038%2C-74.0041"></iframe>
       </div>
     </div>
     <div class="container mt-5">
@@ -1394,22 +1393,22 @@
             <div class="info-item">
               <div class="info-icon"><i class="bi bi-geo-alt"></i></div>
               <div>
-                <h5>Location:</h5>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h5>العنوان</h5>
+                <p>شارع تجريبي، المدينة، الرمز البريدي</p>
               </div>
             </div>
             <div class="info-item">
               <div class="info-icon"><i class="bi bi-envelope"></i></div>
               <div>
-                <h5>Email:</h5>
+                <h5>البريد</h5>
                 <p>info@example.com</p>
               </div>
             </div>
             <div class="info-item">
               <div class="info-icon"><i class="bi bi-phone"></i></div>
               <div>
-                <h5>Call:</h5>
-                <p>+1 5589 55488 55</p>
+                <h5>الهاتف</h5>
+                <p>+216 12 345 678</p>
               </div>
             </div>
           </div>
@@ -1417,12 +1416,12 @@
         <div class="col-lg-8">
           <div class="contact-card">
             <form class="row g-3">
-              <div class="col-md-6"><input class="form-control" type="text" placeholder="Your Name"></div>
-              <div class="col-md-6"><input class="form-control" type="email" placeholder="Your Email"></div>
-              <div class="col-12"><input class="form-control" type="text" placeholder="Subject"></div>
-              <div class="col-12"><textarea class="form-control" placeholder="Message"></textarea></div>
+              <div class="col-md-6"><input class="form-control" type="text" placeholder="الاسم"></div>
+              <div class="col-md-6"><input class="form-control" type="email" placeholder="البريد الإلكتروني"></div>
+              <div class="col-12"><input class="form-control" type="text" placeholder="الموضوع"></div>
+              <div class="col-12"><textarea class="form-control" placeholder="الرسالة"></textarea></div>
               <div class="col-12 text-center">
-                <button class="btn-submit" type="button">Send Message</button>
+                <button class="btn-submit" type="button">إرسال الرسالة</button>
               </div>
             </form>
           </div>
@@ -1435,19 +1434,19 @@
     <div class="container footer-top">
       <div class="row g-4">
         <div class="col-lg-3 col-md-6">
-          <h5>Address</h5>
-          <p>A108 Adam Street<br>New York, NY 535022</p>
+          <h5>العنوان</h5>
+          <p>شارع تجريبي<br>المدينة، الرمز البريدي</p>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5>Contact</h5>
-          <p><strong>Phone:</strong> +1 5589 55488 55<br><strong>Email:</strong> info@example.com</p>
+          <h5>تواصل</h5>
+          <p><strong>الهاتف:</strong> +216 12 345 678<br><strong>البريد:</strong> info@example.com</p>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5>Opening Hours</h5>
-          <p>Mon-Sat: 11AM - 23PM<br>Sunday: Closed</p>
+          <h5>أوقات العمل</h5>
+          <p>الإثنين–السبت: 11:00 – 23:00<br>الأحد: مغلق</p>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5>Follow Us</h5>
+          <h5>تابعنا</h5>
           <div class="social-links">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -1458,12 +1457,12 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <div>&copy; Copyright <strong>Delicious</strong>. All Rights Reserved</div>
-      <div>Designed to closely match the provided reference layout.</div>
+      <div>جميع الحقوق محفوظة &copy; <strong>التوفيق الدائم</strong></div>
+      <div>تصميم مستلهم من مرجع بصري قمت بمشاركته.</div>
     </div>
   </footer>
 
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <button class="back-to-top" id="backToTop" aria-label="العودة للأعلى">
     <i class="bi bi-arrow-up"></i>
   </button>
 
@@ -1471,7 +1470,8 @@
   <script>
     const navbar = document.getElementById("mainNav");
     const backToTop = document.getElementById("backToTop");
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link[href^='#']");
+    const navLinks = document.querySelectorAll(".navbar-nav .nav-link[href^='#']:not([href='#'])");
+    const dropdownItems = document.querySelectorAll(".navbar .dropdown-item");
     const sections = [...document.querySelectorAll("section[id]")];
 
     function handleScroll() {
@@ -1501,7 +1501,18 @@
       link.addEventListener("click", () => {
         const collapse = document.querySelector(".navbar-collapse.show");
         if (collapse) {
-          bootstrap.Collapse.getInstance(collapse).hide();
+          const inst = bootstrap.Collapse.getInstance(collapse);
+          if (inst) inst.hide();
+        }
+      });
+    });
+
+    dropdownItems.forEach(item => {
+      item.addEventListener("click", () => {
+        const collapse = document.querySelector(".navbar-collapse.show");
+        if (collapse) {
+          const inst = bootstrap.Collapse.getInstance(collapse);
+          if (inst) inst.hide();
         }
       });
     });
